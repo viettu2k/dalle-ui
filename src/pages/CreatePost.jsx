@@ -5,8 +5,6 @@ import { preview } from '../assets';
 import { getRandomPrompt } from '../utils';
 import { FormField, Loader } from '../components';
 
-const API_URL = 'http://localhost:8080';
-
 const CreatePost = () => {
   const navigate = useNavigate();
   const [generatingImg, setGeneratingImg] = useState(false);
