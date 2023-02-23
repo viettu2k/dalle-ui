@@ -12,5 +12,7 @@ export function getRandomPrompt(prompt) {
 }
 
 export async function downloadImage(_id, photo) {
-  FileSaver.saveAs(photo, `download-${id}.jpg`);
+  FileSaver.saveAs(photo, `download-${_id}.jpg`);
 }
+
+export const API_URL = 'https://dalle-api-viettu2k.onrender.com';
